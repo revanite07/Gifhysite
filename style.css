@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(94, 92, 92);
+  font-family: 'Teko', sans-serif;
+}
+
+h1 {
+font-size: 50px;
+color:white;
+text-align: center;
+}
+.animal {
+    font-family: 'Teko', sans-serif;
+    font-size:15px;
+    padding: 5px;
+    margin-left: 1%;
+    margin-top: 2%;
+    float:right;
+}
+
+#add-animal, #animal-input{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    padding:5px;
+    margin-top: 2%;
+}
