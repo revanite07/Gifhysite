@@ -1,4 +1,4 @@
-var animals = ["cat", "fish", "shark", "panda", "whale", "tiger"];
+var animals = ["cat", "fish", "shark", "panda", "whale", "tiger", "dragon"];
 
 function displayAnimals(){   
     
@@ -7,8 +7,7 @@ function displayAnimals(){
     
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
       animal + "&api_key=AZuzub4KixtMNWh3XjS5yonltXGp9giD";
-     // AZuzub4KixtMNWh3XjS5yonltXGp9giD  
-     //dc6zaTOxFJmzC&limit=1  
+    
     $.ajax({
       url: queryURL,
       method: "GET"
